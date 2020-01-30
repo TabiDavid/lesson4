@@ -4,7 +4,7 @@ body {
 	margin: 0;
 }
 
-header, footer{
+header {
 	background-color: #BF1363;
 	padding: 5px 0;
 	display: flex;
@@ -13,7 +13,7 @@ header, footer{
 }
 
 header img {
-	width: 80px;
+    width: 80px;
 	height: auto;
 }
 
@@ -36,7 +36,7 @@ header img {
 }
 
 
-/* Larger viewports */
+/*Larger viewports */
 @media only screen and (min-width: 32.5em) {
 	header img {
 		width: 100%;
@@ -53,8 +53,7 @@ header img {
 	}
 }
 
-
-/*This section is about the navigation bar with hamburguer*/
+/*Here is the code to the nav bar*/
 
 nav {
 	margin: 0 auto;
@@ -97,11 +96,12 @@ nav {
 		display: flex;
 	}
 	.navigation li {
-		display: block;
+		display: block; /* needed because of state in small view */
 		flex: 1 1 100%;
 	}
 	.navigation li a {
 		color: yellow;
+		text-align: center;
 	}
 	
 	.navigation li:first-child {
