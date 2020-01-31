@@ -101,11 +101,7 @@ main{
 	
 }
 
-footer p{
-
-	padding: 5px 0;
-	display: flex;
-	align-items:center;
-	justify-content:center;
-	text-align: center;
+footer div{
+text-align: center;
 }
+
