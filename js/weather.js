@@ -15,10 +15,10 @@ function getUpdate(){
     
 var Months = ['January', 'Febrary', 'March', 'April', 'May', 'Jun', 'July',
 'August', 'September', 'October', 'November', 'December'];
-var weekdays = ['Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 
-    text = weekdays[dayOfWeek] + " , " + dayOfMonth + " " + Months[month] + " " + year;
+    text = weekdays[dayOfWeek] + ", " + dayOfMonth + " " + Months[month] + " " + year;
     
     
     document.getElementById('outputDiv').innerHTML = text;
