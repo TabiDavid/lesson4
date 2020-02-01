@@ -100,6 +100,13 @@ main{
 	color: black;
 	
 }
+.Ecuador{
+	display: block;
+	padding: 18px;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
 
 footer div{
 text-align: center;
