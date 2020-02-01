@@ -17,7 +17,7 @@ header, footer{
 	align-items:center;
 	justify-content:center;
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: 900px;
 }
 
 header img {
@@ -38,7 +38,7 @@ header img {
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: forestgreen;
+	color: black;
 	margin-left: 20px;
 	font-size: .9rem;
 }
@@ -49,8 +49,8 @@ header img {
 
 nav {
 	margin: 0 auto;
-	max-width: 760px;
-	background-color: #000;
+	max-width: 900px;
+	background-color: #E07BE0;
 }
 .navigation {
 	list-style: none;
@@ -66,7 +66,7 @@ nav {
 	display: block;
 	color: #fff;
 	padding: 0.75rem;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 }
 .navigation a:hover {
@@ -87,7 +87,7 @@ main{
 	
 	align-items: center;
 	justify-content: center;
-	max-width: 750px;
+	max-width: 900px;
 
 }
 
@@ -96,7 +96,7 @@ main{
 	margin: 10px;
 	border: 1px dashed green;
 	padding: 18px;
-	background-color: hotpink;
+	background-color: #DCCCFF;
 	color: black;
 	
 }
